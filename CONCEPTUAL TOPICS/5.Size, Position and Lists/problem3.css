@@ -1,0 +1,16 @@
+/*Reset some default styles for better consistency*/
+body,h2,ul,ol,li{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+/*Unordered List Styles*/
+.unordered-list li{
+    list-style-type: disc;/*Use bullets as list markers*/
+    margin-bottom: 5px;/*Add some space between list items*/
+}
+/*Ordered List Styles*/
+.ordered-list li{
+    list-style-type: decimal;
+    margin-bottom: 5px;
+}

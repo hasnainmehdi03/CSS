@@ -1,0 +1,26 @@
+/* Styling the progress bar container */
+.progress-bar {
+    width: 100%;
+    height: 5px; /* Thin progress bar */
+    background-color: #e0e0e0;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+/* Styling the progress indicator */
+.progress {
+    width: 0;
+    height: 100%;
+    background-color: #76c7c0;
+    animation: progressAnimation 3s linear infinite;
+}
+
+/* Defining the animation */
+@keyframes progressAnimation {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}

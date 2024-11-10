@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.progress-bar-container{
+    width: 100%;
+    background-color: #f0f0f0;
+    height: 5px;
+    position: relative;
+}
+.progress-bar{
+    background-color: #3498db;
+    height: 100%;
+    width: 0;
+    transition: width 3s ease-in-out;
+}
+/*Add a class to trigger the animation when the page loads*/
+.progress-bar.active{
+    width: 100;
+}

@@ -1,0 +1,45 @@
+<!--Create a slider with 3 Images using CSS-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="slider">
+        <div class="slides">
+            <!-- Radio buttons for manual navigation -->
+            <input type="radio" name="radio-btn" id="img1" checked>
+            <input type="radio" name="radio-btn" id="img2">
+            <input type="radio" name="radio-btn" id="img3">
+
+            <!-- Slide images -->
+            <div class="slide first">
+                <img src="D:\Portfolio\CSS\5.Size, Position and Lists\6.Flexbox\7.CSS Grid and Media Queries\8.Transforms, Transitions and Animation\Images\pavel-moiseev-8w3hXgLiL8w-unsplash.jpg" alt="Image 1">
+            </div>
+            <div class="slide">
+                <img src="D:\Portfolio\CSS\5.Size, Position and Lists\6.Flexbox\7.CSS Grid and Media Queries\8.Transforms, Transitions and Animation\Images\pavel-moiseev-9_LiMBQ1yYM-unsplash.jpg" alt="Image 2">
+            </div>
+            <div class="slide">
+                <img src="D:\Portfolio\CSS\5.Size, Position and Lists\6.Flexbox\7.CSS Grid and Media Queries\8.Transforms, Transitions and Animation\Images\pavel-moiseev-gqipBEs8exk-unsplash.jpg" alt="Image 3">
+            </div>
+
+            <!-- Automatic navigation buttons -->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+        </div>
+
+        <!-- Manual navigation buttons -->
+        <div class="navigation-manual">
+            <label for="img1" class="manual-btn"></label>
+            <label for="img2" class="manual-btn"></label>
+            <label for="img3" class="manual-btn"></label>
+        </div>
+    </div>
+</body>
+</html>

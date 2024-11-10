@@ -1,0 +1,38 @@
+/*Reset some default styles for better consistency*/
+body,h1,p,ul,li{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+/*Navbar Styles*/
+.navbar{
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.nav-links a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+.nav-links a:hover{
+    background-color: #555;
+}
+/*Responsive Styles*/
+@media(max_width: 768px){
+    .navbar{
+        flex-direction: coloumn;
+        align-items: center;
+    }
+    .nav-links a{
+        padding: 5px;
+    }
+}

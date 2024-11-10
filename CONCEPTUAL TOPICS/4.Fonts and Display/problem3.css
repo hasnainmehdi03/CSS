@@ -1,0 +1,11 @@
+.example{
+    border: 1px black;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: lightgrey;
+    /*Uncomment one of the following lines at a time to see the difference*/
+    /*Example1: Using display property*/
+    /*display:none;*/
+    /*Example2: Using visibility property*/
+    /*Visibility:hidden;*/
+}
